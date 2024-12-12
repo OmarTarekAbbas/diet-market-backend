@@ -1,0 +1,311 @@
+{
+    "info": {
+        "name": "options",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "[admin] Create new Option",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": []
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/options",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "options"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] Update Option",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": []
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/options/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "options",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] List options",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": []
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/options",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "options"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] Get Option",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/options/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "options",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] Delete Option",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/options/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "options",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[site] Show single record of options",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/options/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "options",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[site] Show list options",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/options",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "options"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        }
+    ],
+    "variable": [
+        {
+            "key": "baseUrl",
+            "type": "string"
+        },
+        {
+            "key": "host",
+            "type": "string"
+        },
+        {
+            "key": "protocol",
+            "type": "string"
+        },
+        {
+            "key": "token",
+            "type": "string"
+        },
+        {
+            "key": "tokenType",
+            "value": "Bearer",
+            "type": "string"
+        }
+    ]
+}

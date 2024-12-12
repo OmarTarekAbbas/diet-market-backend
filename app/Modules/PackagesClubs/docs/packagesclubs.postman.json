@@ -1,0 +1,311 @@
+{
+    "info": {
+        "name": "packagesclubs",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "[admin] Create new PackagesClub",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": []
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/packagesclubs",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "packagesclubs"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] Update PackagesClub",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": []
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/packagesclubs/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "packagesclubs",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] List packagesclubs",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": []
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/packagesclubs",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "packagesclubs"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] Get PackagesClub",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/packagesclubs/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "packagesclubs",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] Delete PackagesClub",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/packagesclubs/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "packagesclubs",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[site] Show single record of packagesclubs",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/packagesclubs/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "packagesclubs",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[site] Show list packagesclubs",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/packagesclubs",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "packagesclubs"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        }
+    ],
+    "variable": [
+        {
+            "key": "baseUrl",
+            "type": "string"
+        },
+        {
+            "key": "host",
+            "type": "string"
+        },
+        {
+            "key": "protocol",
+            "type": "string"
+        },
+        {
+            "key": "token",
+            "type": "string"
+        },
+        {
+            "key": "tokenType",
+            "value": "Bearer",
+            "type": "string"
+        }
+    ]
+}

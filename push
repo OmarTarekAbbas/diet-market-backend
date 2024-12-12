@@ -1,0 +1,12 @@
+#!/bin/sh
+commit=$1;
+
+composer fix
+php artisan mongez:test
+
+# Zero means success test
+if [ $? -eq 0 ]; then
+    git add .
+    git commit -m "$commit"
+    git push
+fi

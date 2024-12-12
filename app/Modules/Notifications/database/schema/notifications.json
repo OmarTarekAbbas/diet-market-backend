@@ -1,0 +1,15 @@
+{
+    "_id": "objectId",
+    "id": "int",
+    "createdAt": "dataTime",
+    "updatedAt": "dataTime",
+    "deletedAt": "dataTime",
+    "deletedBy": "@Users\/users",
+    "createdBy": "@Users\/users",
+    "updatedBy": "@Users\/users",
+    "title": "string",
+    "content": "string",
+    "type": "string",
+    "extra": "string",
+    "image": "string"
+}

@@ -1,0 +1,20 @@
+{
+    "_id": "objectId",
+    "id": "int",
+    "createdAt": "dataTime",
+    "updatedAt": "dataTime",
+    "deletedAt": "dataTime",
+    "deletedBy": "@Users\/users",
+    "createdBy": "@Users\/users",
+    "updatedBy": "@Users\/users",
+    "shippingMethod": "string",
+    "meals": "string",
+    "paymentMethod": "string",
+    "shippingAddress": "string",
+    "fromTime": "string",
+    "toTime": "string",
+    "subTotal": "double",
+    "shippingFees": "double",
+    "totalQuantity": "double",
+    "finalPrice": "double"
+}

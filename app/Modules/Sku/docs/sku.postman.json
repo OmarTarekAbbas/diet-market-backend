@@ -1,0 +1,311 @@
+{
+    "info": {
+        "name": "skus",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "[admin] Create new Sku",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": []
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/skus",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "skus"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] Update Sku",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "body": {
+                    "mode": "urlencoded",
+                    "urlencoded": []
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/skus/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "skus",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] List skus",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": []
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/skus",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "skus"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] Get Sku",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/skus/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "skus",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[admin] Delete Sku",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/admin/skus/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "admin",
+                        "skus",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[site] Show single record of skus",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/skus/{id}",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "skus",
+                        "{id}"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "[site] Show list skus",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "{{tokenType}} {{token}}"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/api/skus",
+                    "host": "{{host}}",
+                    "protocol": "{{protocol}}",
+                    "path": [
+                        "{{baseUrl}}",
+                        "api",
+                        "skus"
+                    ]
+                }
+            },
+            "response": {
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/x-www-form-urlencoded"
+                    }
+                ]
+            }
+        }
+    ],
+    "variable": [
+        {
+            "key": "baseUrl",
+            "type": "string"
+        },
+        {
+            "key": "host",
+            "type": "string"
+        },
+        {
+            "key": "protocol",
+            "type": "string"
+        },
+        {
+            "key": "token",
+            "type": "string"
+        },
+        {
+            "key": "tokenType",
+            "value": "Bearer",
+            "type": "string"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "_id": "objectId",
+    "id": "int",
+    "createdAt": "dataTime",
+    "updatedAt": "dataTime",
+    "deletedAt": "dataTime",
+    "deletedBy": "@Users\/users",
+    "createdBy": "@Users\/users",
+    "updatedBy": "@Users\/users",
+    "notes": "string",
+    "title": "string",
+    "transactionType": "string",
+    "reason": "string",
+    "orderId": "int",
+    "amount": "double"
+}

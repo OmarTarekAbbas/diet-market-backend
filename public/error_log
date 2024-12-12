@@ -1,0 +1,14 @@
+[03-May-2021 13:53:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Hsttp\Request' not found in /home/pubrhnet/public_html/oshna/backend/public/index.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/pubrhnet/public_html/oshna/backend/public/index.php on line 57
+[03-May-2021 13:53:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Hsttp\Request' not found in /home/pubrhnet/public_html/oshna/backend/public/index.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/pubrhnet/public_html/oshna/backend/public/index.php on line 57
+[04-May-2021 19:54:21 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/pubrhnet/public_html/oshna/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/pubrhnet/public_html/oshna/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/pubrhnet/public_html/oshna/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/pubrhnet/public_html/oshna/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(563): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/pubrhnet/public_html/oshna/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(474): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpExc in /home/pubrhnet/public_html/oshna/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258

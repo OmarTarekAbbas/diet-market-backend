@@ -1,0 +1,18 @@
+{
+    "_id": "objectId",
+    "id": "int",
+    "createdAt": "dataTime",
+    "updatedAt": "dataTime",
+    "deletedAt": "dataTime",
+    "deletedBy": "@Users\/users",
+    "createdBy": "@Users\/users",
+    "updatedBy": "@Users\/users",
+    "receiverName": "string",
+    "name": "string",
+    "address": "string",
+    "phoneNumber": "string",
+    "buildingNumber": "string",
+    "flatNumber": "string",
+    "floorNumber": "string",
+    "isPrimary": "boolean"
+}
